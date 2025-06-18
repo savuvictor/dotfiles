@@ -19,8 +19,6 @@ sudo tar -C /usr/local -xzf go1.24.4.linux-amd64.tar.gz
 
 go install github.com/asdf-vm/asdf/cmd/asdf@v0.18.0
 
-export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin
-
 source ~/.bashrc
 
 
