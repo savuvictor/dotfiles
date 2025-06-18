@@ -1,0 +1,9 @@
+[user]
+	name = Victor Savu
+	email = savu.victoralexandru@gmail.com
+
+[alias]
+	last = log -1 HEAD
+
+[init]
+	defaultBranch = main
