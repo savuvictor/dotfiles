@@ -7,7 +7,7 @@ BASHRC="$HOME/.bashrc"
 CONFIG="source $DOTFILES_DIR/.bashrc_wsl"
 
 sudo apt update
-xargs -a "$DOTFILES_DIR/packages" sudo apt install -y
+xargs -a "$DOTFILES_DIR/packages.txt" sudo apt install -y
 
 grep -Fxq "$CONFIG" "$BASHRC" || echo "$CONFIG" >> "$BASHRC"
 cp "$DOTFILES_DIR/.gitconfig" "$HOME/.gitconfig"
